@@ -1,6 +1,6 @@
 import React from 'react'
 import '../App.css';
-import Dev from '../components/Dev';
+
 
 const Team = (props) => {
     // console.log(props)

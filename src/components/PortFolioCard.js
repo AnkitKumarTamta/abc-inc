@@ -1,6 +1,6 @@
 import React from 'react'
 import '../App.css';
-import PortFolio from './PortFolio';
+
 
 const PortFolioCard = (props) => {
     

@@ -7,9 +7,9 @@ const Header = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light px-4">
-        <a className="navbar-brand text-primary" href="/">
+        <Link className="navbar-brand text-primary" to="/home">
           <span className="logo">ABC Inc</span>
-        </a>
+        </Link>
         {/* <button
           className="navbar-toggler"
           type="button"
@@ -24,8 +24,8 @@ const Header = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item active">
-              <Link className="nav-link" to="/">
-                Home{" "}
+              <Link className="nav-link" to="/home">
+                Home
               </Link>
             </li>
             <li className="nav-item">
@@ -35,12 +35,12 @@ const Header = () => {
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/dev">
-                Devlopers{" "}
+                Devlopers
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/contact">
-                Contact{" "}
+                Contact
               </Link>
             </li>
           </ul>

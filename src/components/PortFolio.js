@@ -1,7 +1,7 @@
 import React from "react";
 import portf from "../images/port_banner.jpg";
 import "../App.css";
-import PortFolioCard from "./PortFolioCard";
+
 import oneRow from "../images/oneRow.jpg";
 
 const PortFolio = () => {

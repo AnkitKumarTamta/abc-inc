@@ -12,7 +12,7 @@ const RegisterForm = () => {
           <div className="row g-0">
             <div className="col-xl-6 d-none d-xl-block">
               <img src={"https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/img4.webp"}
-                alt="Sample photo" className="img-fluid"
+                alt="Sample" className="img-fluid"
                 style={{borderTopLeftRadius: ".25rem", borderBottomLeftRadius: ".25rem"}} />
             </div>
             <div className="col-xl-6">

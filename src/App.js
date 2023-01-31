@@ -11,12 +11,12 @@ import PortFolio from './components/PortFolio';
 
 function App() {
   return (
-    <>
+    
     <Router>
     <Header />
     
   <Routes>
- < Route path='/' element={<MainCard />} />
+ < Route path='/home' element={<MainCard />} />
   < Route path='/register' element={<RegisterForm /> } />
   < Route path='/dev' element={<Dev /> } />
   <Route path='/contact' element={<Contact />}  />
@@ -26,7 +26,7 @@ function App() {
     
     <Footer />
     </Router>
-    </>
+    
   );
 }
 

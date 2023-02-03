@@ -7,9 +7,9 @@ const Header = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light px-4">
-        <Link className="navbar-brand text-primary" to="/home">
-          <span className="logo">ABC Inc</span>
-        </Link>
+        
+          <span className="navbar-brand text-primary fs-2">ABC Inc</span>
+        
         {/* <button
           className="navbar-toggler"
           type="button"
@@ -24,7 +24,7 @@ const Header = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item active">
-              <Link className="nav-link" to="/home">
+              <Link className="nav-link" to="/">
                 Home
               </Link>
             </li>

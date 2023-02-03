@@ -13,21 +13,21 @@ const MainCard = () => {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active" data-bs-interval="2000">
-      <img src="https://images.unsplash.com/photo-1549082984-1323b94df9a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGVyc29uJTIwYXQlMjBkZXNrfGVufDB8fDB8fA%3D%3D&w=1000&q=80" className="d-block w-100" alt="image"/>
+      <img src="https://images.unsplash.com/photo-1549082984-1323b94df9a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGVyc29uJTIwYXQlMjBkZXNrfGVufDB8fDB8fA%3D%3D&w=1000&q=80" className="d-block w-100 filt" alt="image"/>
       <div id="first" className="carousel-caption d-none d-md-block text-white display-1">
         <h3>Successfull Projects</h3>
         <p>Excelent <span className='text-primary' >IT Services</span> for Your Success</p>
       </div>
     </div>
     <div  className="carousel-item" data-bs-interval="2000">
-      <img src="https://images.unsplash.com/photo-1589987607627-616cac5c2c5a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d29ya2luZyUyMGNvbXB1dGVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80" className="d-block w-100" alt="image"/>
+      <img src="https://images.unsplash.com/photo-1589987607627-616cac5c2c5a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d29ya2luZyUyMGNvbXB1dGVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80" className="d-block w-100 filt" alt="image"/>
       <div id='second' className="carousel-caption d-none d-md-block text-white display-1">
         <h3>International Reach</h3>
         <p >Leading <span className='text-primary'>Global Provider</span> for IT Solutions</p>
       </div>
     </div>
     <div className="carousel-item" data-bs-interval="2000">
-      <img src="https://images.unsplash.com/photo-1558698972-c50e325e6799?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNvbXB1dGVyJTIwc3R1ZHl8ZW58MHx8MHx8&w=1000&q=80" className="d-block w-100" alt="image"/>
+      <img src="https://images.unsplash.com/photo-1558698972-c50e325e6799?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNvbXB1dGVyJTIwc3R1ZHl8ZW58MHx8MHx8&w=1000&q=80" className="d-block w-100 filt" alt="image"/>
       <div id='third' className="carousel-caption d-none d-md-block text-white display-1">
         <h3>Established Brands</h3>
         <p>We Believe in <span className='text-primary'>Building Strong</span> Brands</p>

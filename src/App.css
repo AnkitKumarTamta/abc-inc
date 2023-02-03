@@ -562,9 +562,11 @@
   margin-bottom: 50px;
 }
 
- 
+.filt{
+  filter: brightness(30%);
+}
 
- 
+
 
   
 

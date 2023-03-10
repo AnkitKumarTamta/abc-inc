@@ -9,7 +9,7 @@ import swara from '../images/swarajfabrics.png';
 const Contact = () => {
   return (
     <>
-      <div className="bnrpic">
+      <div className="bnrpic" id="bnr">
         <img
           src="https://www.askgalore.com/wp-content/uploads/2021/11/contactus-banner.jpg"
           alt="banner"
@@ -43,7 +43,7 @@ const Contact = () => {
     </div>
     <div className="secondinput">
     <input type='text' name='subject' placeholder='Subject' />
-    <textarea className="w3review" name="w3review" rows="5" cols="59" placeholder="Enter Your Query"></textarea>
+    <textarea className="w3review" name="w3review" rows="5" cols="59" placeholder="Enter Your Query"></textarea> <br/>
     <button className="btn btn-info text-white p-2 mt-3"><h6>Submit Request</h6></button>
     </div>
     

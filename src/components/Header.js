@@ -6,9 +6,11 @@ import "../App.css";
 const Header = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light px-4">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light px-4 d-flex justify-content-between ">
         
-          <span className="navbar-brand text-primary fs-2">ABC Inc</span>
+        <div className="flexi mt-3 ">
+
+       
         
         {/* <button
           className="navbar-toggler"
@@ -21,8 +23,9 @@ const Header = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button> */}
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
+        
+          <ul className="navbar-nav fs-5 ">
+          <span className="navbar-brand text-primary fs-2">ABC Inc</span>
             <li className="nav-item active">
               <Link className="nav-link" to="/">
                 Home
@@ -44,7 +47,10 @@ const Header = () => {
               </Link>
             </li>
           </ul>
+       
+
         </div>
+          
 
         <div className="allbtn">
           <button className="btn btn-primary mx-3">Login</button>

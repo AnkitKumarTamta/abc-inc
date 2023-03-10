@@ -566,7 +566,53 @@
   filter: brightness(30%);
 }
 
+@media screen and (max-width: 959px) {
+  .navbar {
+    flex-direction: column;
+    float: left;
+  }
+  
+  #imgcontainer img{
+    width: 250px;
+    height: 250px;
+  }
 
+  #infow{
+    font-size: 0.8em;
+  }
+
+  #paragraph h1 {
+    font-size: 0.9em;
+  }
+
+  #paragraph h4 {
+    font-size: 0.9em;
+  }
+
+  #paragraph p {
+    font-size: 1em;
+  }
+
+  #paragraph img{
+    width: 200px;
+    height: 200px;
+  }
+
+ #twoCol h1{
+  font-size: 23px;
+ }
+
+ .bnrpic img{
+  height: 200px;
+ }
+
+ .bnrpic h1{
+  font-size: 24px;
+ }
+
+
+
+}
 
   
 
